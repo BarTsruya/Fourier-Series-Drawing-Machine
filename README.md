@@ -4,9 +4,9 @@ The computer will draw the user drawing by using Fourier Series coefficients.
 
 Openning Window: Consist of 2 options.
 1. Draw - this will let the user creat its own drawing. The user needs to select a position on the screen which is the starting point of the drawing.
-   Then the user can choose the following point. Each mouse click is another point of the drawing. It is important to select the dots in an order and that two
-   consecutive dots will be next to each other. Even if you want to draw a line, it is neccesary to select a couple of points throw the line so that the computer
-   will achive a better prepormance later.
+   Then the user can choose the next point, and so on. Each mouse click is another point of the drawing. It is important to select the dots in an order and that two
+   consecutive dots will be next to each other. Even if you want to draw a line, it is neccesary to select a couple of points throw that line so that the computer
+   will achive a better prepormance later. Note: To avoide issues, draw a closed figure - the last point you select needs to be near the starting point.
 2. Load - this option is for loading a saved draw from the computer memory. The computer will show the drawing as it was saved without letting the user to edit it.
 
 Computer Drawing Window:
@@ -19,12 +19,12 @@ The computer drawing machine is actually a sequence of vector acrrows sum up to 
    But the user needs to be careful with the scale of N. When N gets really high, it could hurt the accuracy because gibs effect would be shown.
 2. Arrows button - detrmines if the computer drawing machine will draw the vectors with arrows shape or just a line.
 3. Circles button - determines if the computer drawing machine will draw the circles which the vectors turns around on.
-
+4. Save button - the user has an option to save its figure. To do so, click on this button, choose a name for the figure, press enter and the figure you have created will be in the computer memory as a text file contains the dots of your figure :)
 
 Cool to know:
 The fourier series formula consist of exponents like ei^(-n*2*PI*t) when n represents the frequency and t is in range [0,1] and represent the point in the time line (when it reaches to 1 a time unit accomplished).
 A complex exponent, while t changes, also can be presented as a circle with a point moves on it. That are the vectors mentioned above.
-And where do the fourier coefficients involve? the exponent of the n frequency is multiplied by Cn in the formula. The visual meaning is that the absolut value of Cn is the radius of that circle! 
+And where do the fourier coefficients involve? the exponent of the n frequency is multiplied by Cn in the formula. The visual meaning is that the absolut value of Cn is the radius of that circle!
 
 
 
