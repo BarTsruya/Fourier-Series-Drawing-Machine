@@ -24,7 +24,7 @@ The computer drawing machine is actually a sequence of vector acrrows sum up to 
 Cool to know:
 The fourier series formula consist of exponents like ei^(-n*2*PI*t) when n represents the frequency and t is in range [0,1] and represent the point in the time line (when it reaches to 1 a time unit accomplished).
 A complex exponent, while t changes, also can be presented as a circle with a point moves on it. That are the vectors mentioned above.
-And where do the fourier coefficients involve? the exponent of the n frequency is multiplied by Cn in the formula. The visual meaning is that the absolut value of Cn is the radius of that circle!
+And where do the fourier coefficients involve? the exponent of the n frequency is multiplied by Cn in the formula. The visual meaning is that the absolut value of Cn is the radius of that circle! 
 
 
 
